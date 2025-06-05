@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "apple";
+  src: url("font/SFProText-Regular.eot");
+  src: url("font/SFProText-Regular.eot?#iefix") format("embedded-opentype"),
+    url("font/SFProText-Regular.woff2") format("woff2"),
+    url("font/SFProText-Regular.woff") format("woff"),
+    url("font/SFProText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "apple bold";
+  src: url("font/SFProDisplay-Bold.woff2") format("woff2"),
+    url("font/SFProDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.container-fluid {
+  font-family: "apple";
+  overflow-x: hidden;
+}
+.sub1{
+  display: block;
+}
+.parent {
+  width: 100%;
+  height: 44px;
+  background-color: #ffffffcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  position: absolute;
+}
+.parent li {
+  height: 44px;
+}
+.parent li a {
+  text-decoration: none;
+  height: 44px;
+  display: block;
+  padding: 0px 8px;
+  margin: 10px;
+  color: black;
+  font-size: 14px;
+}
+.video {
+  width: 100vw;
+  height: 610px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #f3f3f5;
+  border-bottom:1px solid black;
+}
+.video video{
+  height: 400px;
+  margin-top: 2px;
+}
+
